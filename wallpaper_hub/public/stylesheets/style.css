@@ -1,0 +1,60 @@
+body
+{}
+h2
+{color:red;}
+
+ul li
+{list-style:none;}
+
+a:hover{color:blue; text-decoration:underline;}
+
+#main{ width:1100px; margin:0px auto auto auto; border:1px groove silver; background-color:#ddeebb;}
+
+#contents{min-height:420px; width:100%;}
+
+.menu{width:100%; margin-top:3px;margin-bottom:3px; background-color:black; padding-top:5px;padding-bottom:5px;}
+
+.menu ul{margin:0px; padding:0px;}
+
+.menu li{display:inline-block; margin-left:8px;}
+
+.menu li a{ color:white; font-size:1.2em; text-decoration:none;}
+
+.menu a:hover{color:red; text-decoration:underline; font-size:14pt;}
+
+.menu a:active{color:red; text-decoration:underline; font-size:12pt;}
+
+table,td,tr{  padding:5px; vertical-align:center; border-collapse:collapse;}
+.login_form{border:1px double black; width:250px; margin-left:350px; margin-top:80px;}
+.msg
+{ color:red; width:90%; font-size:0.9em; padding:3px;}
+.clear
+{clear:both; }
+.left
+{float:left;width:15%;min-height:420px; max-height:420px; overflow:auto;}
+.right
+{float:left; width:84%; border-left:1px groove silver; border-right:1px groove silver; min-height:420px; max-height:420px; overflow:auto;}
+.admin_menu a
+{color:white; text-decoration:none; font-family:sans-serif; font-size:1.2em;}
+ ul
+{ margin:0px; padding:0px;}
+.admin_menu li
+{ margin-bottom:5px; border:2px groove; text-align:center; background-color:#099988;}
+.admin_menu li:hover
+{border:2px groove red;}
+.photos
+{border:5px groove silver; margin-left:3; padding:3; width:60%; height:280; float:left; }
+.selected
+{color:red; font-size:1.5em;}
+
+/*sign in and sign up*/
+
+input.txtbox,select.txtbox{
+	padding:3px;
+	width:220px;
+}
+
+.signup td
+{
+	padding:10px;
+}
